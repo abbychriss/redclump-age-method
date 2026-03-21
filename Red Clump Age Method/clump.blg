@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: clump.aux
+The style file: aasjournal.bst
+Database file #1: clump.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 29 entries,
+            3168 wiz_defined-function locations,
+            899 strings with 19402 characters,
+and the built_in function-call counts, 17317 in all, are:
+= -- 1065
+> -- 1983
+< -- 11
++ -- 659
+- -- 686
+* -- 1849
+:= -- 3425
+add.period$ -- 29
+call.type$ -- 29
+change.case$ -- 156
+chr.to.int$ -- 29
+cite$ -- 29
+duplicate$ -- 481
+empty$ -- 778
+format.name$ -- 722
+if$ -- 3265
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 29
+newline$ -- 95
+num.names$ -- 116
+pop$ -- 159
+preamble$ -- 1
+purify$ -- 156
+quote$ -- 0
+skip$ -- 397
+stack$ -- 0
+substring$ -- 472
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 261
+warning$ -- 0
+while$ -- 109
+width$ -- 0
+write$ -- 325
