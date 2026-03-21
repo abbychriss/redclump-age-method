@@ -22,8 +22,8 @@ Statistical analysis using proper motions, parallax, and position.
 
 | File | Purpose |
 |------|---------|
-| `RC_cluster_member_study.py` | N/A | Multi-cluster red clump analysis (25+ clusters) |
-| `RC_cluster_member_study2.py` | N/A | Enhanced version with PanSTARRS cross-matching |
+| `RC_cluster_member_study.py` | Multi-cluster red clump analysis (25+ clusters) |
+| `RC_cluster_member_study2.py` | Enhanced version with PanSTARRS cross-matching |
 
 ### **3. Cluster Filtering & Data Management**
 Filter and process cluster information from catalogues.
