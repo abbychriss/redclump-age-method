@@ -55,7 +55,6 @@ Create publication-quality plots of cluster populations.
 | `plot_cmd_panstarrs.py` | N/A | PanSTARRS-only CMD (g-i vs g colors) |
 | `plot_cmd_pan+gaia.py` | N/A | Combined Gaia+PanSTARRS CMD comparison |
 | `plotgaia.py` | `fetchiso(iiso)`, `fetchbasti(iiso)` | Gaia HR diagram with isochrone overlays |
-| `plotgaia copy.py` | `fetchiso(iiso)`, `fetchbasti(iiso)` | Backup isochrone plotting (Padova + BASTI) |
 | `isochrone_tracker.py` | N/A | Interactive point-clicker for manual isochrone extraction |
 
 ### **6. Red Clump Analysis**
