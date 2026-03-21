@@ -160,8 +160,6 @@ Multiple stellar evolution models (Padova, BASTI, PARSEC) are compared to valida
 
 - **`cluster_parameters_Kharchenko_2013.txt`** — Reference cluster parameters
 - **`metallicity_data.txt`** — Cluster metallicity values
-- **`lightcone.txt`** — Physics diagram data
-- **`rup37_manual.txt`** — Ruprecht 37 raw analysis data
 - **`Isochrones/`** folder — Pre-computed stellar evolution model data
 - **`Red Clump Age Method/`** folders — LaTeX articles and analysis notebooks
 
