@@ -3,14 +3,14 @@ This code base contains all the relevant python code used in the paper "On the A
 # WSU Open Cluster Age Determination Pipeline
 
 ## Overview
-This codebase implements a complete pipeline for determining open cluster ages using multi-wavelength photometry (Gaia DR3, PanSTARRS) and isochrone fitting. The primary method uses **Red Clump Age Dating**—comparing color differences between red giant branches and red clumps across multiple stellar evolution models.
+This codebase implements a complete pipeline for determining open cluster ages using multi-wavelength photometry and astrometry from Gaia DR3 and PanSTARRS. We fit BASTI v6 isochrones by hand to determine location of RGB and use Tukey-Biweight Median to determine central location of RC from hand drawn bounding box. The primary method uses **Red Clump Age Dating**—comparing color differences between red giant branches and red clumps across multiple stellar evolution models.
 
 ---
 
 ## File Organization
 
 ### **1. Data Acquisition & Cone Searches**
-Scripts for retrieving cluster data from astronomical archives.
+Scripts for fetching data from astronomical databases.
 
 | File | Purpose |
 |------|---------|
@@ -129,7 +129,7 @@ Used across multiple analysis scripts to retrieve stellar parameters and magnitu
 ## Data Pipeline Flow
 
 ```
-1. Cone Searches (Gaia/PanSTARRS) 
+1. Cone Searches (Gaia + PanSTARRS) 
    ↓
 2. Cluster Filtering (Age, distance, parallax constraints)
    ↓
@@ -141,16 +141,16 @@ Used across multiple analysis scripts to retrieve stellar parameters and magnitu
    ↓
 6. Red Clump & RGB Identification
    ↓
-7. Isochrone Fitting & Color Comparison
+7. Isochrone Fitting (Padova, Basti, Parsec)
    ↓
-8. Age Determination (Red Clump Method)
+8. Fit to delta(color) and Age
 ```
 
 ---
 
 ## Scientific Method
 
-**Red Clump Age Dating:** The code measures the color difference between red clump stars and the red giant branch at the clump luminosity to test whether there is a correlation between the delta(color) and clump age.
+**Red Clump Age Indicator:** The code measures the color difference between red clump stars and the red giant branch at the red clump luminosity to test whether there is a correlation between delta(color) and clump age.
 
 Multiple stellar evolution models (Padova, BASTI, PARSEC) are compared to validate results and assess systematic uncertainties.
 
